@@ -1,11 +1,7 @@
 <?= $this->extend('layouts/main') ?>
 <?= $this->section('content') ?>
 
-<div class="jumbotron text-center">
-    <h1 class="display-4">Welcome to Taufik's Portfolio</h1>
-    <p class="lead">I'm a Software Developer and Data Analyst.</p>
-</div>
-
+<!-- Hero Section -->
 <div class="hero" style="background-image: url('path_to_your_background_image.jpg'); background-size: cover; background-position: center; height: 400px;">
     <div class="text-center text-white" style="padding-top: 150px;">
         <h1 class="display-4">Welcome to Taufik's Portfolio</h1>
@@ -14,6 +10,7 @@
     </div>
 </div>
 
+<!-- About Me Section -->
 <section class="about-me mt-5">
     <div class="row">
         <div class="col-md-6">
@@ -22,13 +19,14 @@
         <div class="col-md-6">
             <h2>About Me</h2>
             <p>
-                Hi, I'm Taufik! With over 20 years of experience in software development and data analysis, I specialize in building efficient, scalable applications and extracting meaningful insights from data. My passion lies in solving complex problems with code and data-driven solutions.
+                Hi, I'm Taufik! With over 20 years of experience in software development and data analysis, I specialize in building efficient, scalable applications and extracting meaningful insights from data.
             </p>
             <a href="<?= base_url('/skills') ?>" class="btn btn-outline-secondary">Learn More About My Skills</a>
         </div>
     </div>
 </section>
 
+<!-- Skills Section -->
 <section class="skills mt-5">
     <h2 class="text-center">Core Skills</h2>
     <div class="row mt-4">
@@ -59,6 +57,7 @@
     </div>
 </section>
 
+<!-- Featured Projects -->
 <section class="projects mt-5">
     <h2 class="text-center">Featured Projects</h2>
     <div class="row mt-4">
@@ -72,8 +71,15 @@
                 </div>
             </div>
         </div>
-        <!-- Add 2 more cards -->
+        <!-- Add more project cards -->
     </div>
+</section>
+
+<!-- Contact CTA -->
+<section class="contact-cta mt-5 text-center py-5 bg-light">
+    <h2>Interested in working together?</h2>
+    <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+    <a href="<?= base_url('/contact') ?>" class="btn btn-success btn-lg">Contact Me</a>
 </section>
 
 <?= $this->endSection() ?>
