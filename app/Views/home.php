@@ -2,7 +2,7 @@
 <?= $this->section('content') ?>
 
 <!-- Hero Section -->
-<div class="hero" style="background-image: url('path_to_your_background_image.jpg'); background-size: cover; background-position: center; height: 400px;">
+<div class="hero" style="background-image: url('<?= base_url('images/hero-background.png') ?>'); background-size: cover; background-position: center; height: 400px;">
     <div class="text-center text-white" style="padding-top: 150px;">
         <h1 class="display-4">Welcome to Pascal's Portfolio</h1>
         <p class="lead">I'm a Software Developer and Data Analyst.</p>
