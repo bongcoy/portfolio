@@ -6,25 +6,25 @@ class Portfolio extends BaseController
 {
     public function index()
     {
-        $data['title'] = 'Home - Taufik Portfolio';
+        $data['title'] = 'Home - Pascal Portfolio';
         return view('home', $data);
     }
 
     public function projects()
     {
-        $data['title'] = 'Projects - Taufik Portfolio';
+        $data['title'] = 'Projects - Pascal Portfolio';
         return view('projects', $data);
     }
 
     public function skills()
     {
-        $data['title'] = 'Skills - Taufik Portfolio';
+        $data['title'] = 'Skills - Pascal Portfolio';
         return view('skills', $data);
     }
 
     public function contact()
     {
-        $data['title'] = 'Contact - Taufik Portfolio';
+        $data['title'] = 'Contact - Pascal Portfolio';
         return view('contact', $data);
     }
 
