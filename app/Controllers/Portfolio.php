@@ -21,4 +21,10 @@ class Portfolio extends BaseController
         $data['title'] = 'Skills - Taufik Portfolio';
         return view('skills', $data);
     }
+
+    public function contact()
+    {
+        $data['title'] = 'Contact - Taufik Portfolio';
+        return view('contact', $data);
+    }
 }
