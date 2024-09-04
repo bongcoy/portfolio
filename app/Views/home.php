@@ -4,7 +4,7 @@
 <!-- Hero Section -->
 <div class="hero" style="background-image: url('path_to_your_background_image.jpg'); background-size: cover; background-position: center; height: 400px;">
     <div class="text-center text-white" style="padding-top: 150px;">
-        <h1 class="display-4">Welcome to Taufik's Portfolio</h1>
+        <h1 class="display-4">Welcome to Pascal's Portfolio</h1>
         <p class="lead">I'm a Software Developer and Data Analyst.</p>
         <a href="<?= base_url('/projects') ?>" class="btn btn-primary btn-lg">See My Projects</a>
     </div>
@@ -19,7 +19,7 @@
         <div class="col-md-6">
             <h2>About Me</h2>
             <p>
-                Hi, I'm Taufik! With over 20 years of experience in software development and data analysis, I specialize in building efficient, scalable applications and extracting meaningful insights from data.
+                Hi, I'm Pascal! With over 20 years of experience in software development and data analysis, I specialize in building efficient, scalable applications and extracting meaningful insights from data.
             </p>
             <a href="<?= base_url('/skills') ?>" class="btn btn-outline-secondary">Learn More About My Skills</a>
         </div>
