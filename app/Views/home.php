@@ -4,11 +4,21 @@
 <!-- Hero Section -->
 <div class="hero" style="background-image: url('<?= base_url('images/hero-background.png') ?>'); background-size: cover; background-position: center; height: 400px;">
     <div class="text-center text-white" style="padding-top: 150px;">
-        <h1 class="display-4">Welcome to Pascal's Portfolio</h1>
+        <h1 class="display-4 title-highlight">Welcome to Pascal's Portfolio</h1>
         <p class="lead">I'm a Software Developer and Data Analyst.</p>
         <a href="<?= base_url('/projects') ?>" class="btn btn-primary btn-lg">See My Projects</a>
     </div>
 </div>
+
+<style>
+    .title-highlight {
+        background-color: rgba(0, 0, 0, 0.5);
+        /* Semi-transparent black */
+        display: inline-block;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+</style>
 
 <!-- About Me Section -->
 <section class="about-me mt-5">
