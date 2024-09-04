@@ -18,6 +18,41 @@
         padding: 10px 20px;
         border-radius: 10px;
     }
+
+    /* Default Light Mode */
+    :root {
+        --contact-bg: #f8f9fa;
+        --contact-text-color: #000000;
+        --contact-button-bg: #28a745;
+        --contact-button-text-color: #ffffff;
+    }
+
+    /* Dark Mode */
+    .dark-mode {
+        --contact-bg: #2b2b2b;
+        /* Dark background */
+        --contact-text-color: #ffffff;
+        /* Light text */
+        --contact-button-bg: #28a745;
+        /* Button background stays the same */
+        --contact-button-text-color: #ffffff;
+        /* Button text color stays white */
+    }
+
+    /* Apply variables */
+    .contact-cta {
+        background-color: var(--contact-bg);
+        color: var(--contact-text-color);
+    }
+
+    .contact-cta a.btn {
+        background-color: var(--contact-button-bg);
+        color: var(--contact-button-text-color);
+    }
+
+    .contact-cta a.btn:hover {
+        background-color: darken(var(--contact-button-bg), 10%);
+    }
 </style>
 
 <!-- About Me Section -->
@@ -86,7 +121,7 @@
 </section>
 
 <!-- Contact CTA -->
-<section class="contact-cta mt-5 text-center py-5 bg-light">
+<section class="contact-cta mt-5 text-center py-5">
     <h2>Interested in working together?</h2>
     <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
     <a href="<?= base_url('/contact') ?>" class="btn btn-success btn-lg">Contact Me</a>
