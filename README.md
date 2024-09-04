@@ -1,68 +1,54 @@
-# CodeIgniter 4 Application Starter
+# Pascal's Portfolio
 
-## What is CodeIgniter?
+Welcome to **Pascal's Portfolio**, a personal web portfolio built using **CodeIgniter 4** and **Bootstrap 5**. This portfolio showcases Pascal's work as a **Software Developer** and **Data Analyst**, featuring projects, skills, and contact information. The website includes a dynamic **dark mode** and **light mode** switch for an improved user experience.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+## Features
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+- **Responsive Design**: Built with Bootstrap 5 to ensure the website works well on all device sizes (desktop, tablet, and mobile).
+- **Dark Mode/Light Mode Toggle**: Users can switch between dark and light themes, with their preferences stored in local storage.
+- **Dynamic Content**: Displays projects, skills, and allows users to contact Pascal through a simple UI.
+- **Sticky Navbar**: The navigation bar is always accessible while scrolling the page.
+- **Lazy Loading Images**: Optimizes loading performance by using lazy-loaded images.
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+## Technologies Used
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+- **CodeIgniter 4**: PHP framework for building web applications.
+- **Bootstrap 5**: Front-end framework for responsive design.
+- **JavaScript**: Used for implementing the dark mode/light mode feature.
+- **HTML5/CSS3**: Markup and styles for structuring and designing the website.
+- **LocalStorage**: Used to save the dark/light mode preference.
 
-## Installation & updates
+## Installation
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+### Requirements
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+- **PHP 7.4 or higher**
+- **Composer** for dependency management
+- **Web Server** (Apache, Nginx, etc.)
+- **CodeIgniter 4** installed
 
-## Setup
+### Steps to Install
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
-
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Server Requirements
-
-PHP version 8.1 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> - The end of life date for PHP 8.1 will be December 31, 2025.
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/portfolio.git
+   ```
+2. **Navigate to the project directory:**:
+   ```bash
+   cd portfolio
+   ```
+3. **Install CodeIgniter dependencies:**:
+   ```bash
+   composer install
+   ```
+4. **Set up environment file**:
+   ```bash
+   cp env.example .env
+   ```
+5. **Run the development server**:
+   ```bash
+   php spark serve
+   ```
+6. **Access the website**:  
+   Open your browser and go to:  
+   [localhost:8080](http://localhost:8080)
