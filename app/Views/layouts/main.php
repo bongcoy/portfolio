@@ -11,6 +11,20 @@
         .container {
             margin-top: 100px;
         }
+
+        /* Background color for active menu item */
+        .navbar-nav .nav-link.active {
+            background-color: #007bff;
+            /* Bootstrap primary color */
+            color: white;
+            /* White text on active link */
+            border-radius: 5px;
+        }
+
+        /* Optional: Add padding to make the link look more like a button */
+        .navbar-nav .nav-link {
+            padding: 0.5rem 1rem;
+        }
     </style>
 </head>
 
@@ -57,9 +71,9 @@
                 <div class="col-lg-6 col-md-12 mb-4">
                     <h5 class="text-uppercase">Connect with me</h5>
                     <ul class="list-unstyled">
-                        <li><a href="https://www.linkedin.com/in/muhammad-pascal-dewantara-15901815b/" class="text-dark">LinkedIn</a></li>
-                        <li><a href="https://github.com/bongcoy" class="text-dark">GitHub</a></li>
-                        <li><a href="https://www.instagram.com/mpascaldewantara/" class="text-dark">Instagram</a></li>
+                        <li><a href="https://www.linkedin.com/in/muhammad-pascal-dewantara-15901815b/" class="text-dark" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://github.com/bongcoy" class="text-dark" target="_blank">GitHub</a></li>
+                        <li><a href="https://www.instagram.com/mpascaldewantara/" class="text-dark" target="_blank">Instagram</a></li>
                     </ul>
                 </div>
             </div>
