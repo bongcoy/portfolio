@@ -12,6 +12,7 @@
             --bg-color: #ffffff;
             --text-color: #000000;
             --navbar-bg: #f8f9fa;
+            --navbar-text-color: #000000;
             --footer-bg: #f8f9fa;
             --footer-text-color: #000000;
             --footer-link-color: #007bff;
@@ -21,7 +22,10 @@
         .dark-mode {
             --bg-color: #121212;
             --text-color: #ffffff;
-            --navbar-bg: #333;
+            --navbar-bg: #333333;
+            /* Darker navbar background */
+            --navbar-text-color: #ffffff;
+            /* Lighter text for navbar */
             --footer-bg: #1a1a1a;
             /* Darker footer background */
             --footer-text-color: #f1f1f1;
@@ -36,13 +40,14 @@
             color: var(--text-color);
         }
 
-        .navbar,
-        .footer {
+        /* Navbar */
+        .navbar {
             background-color: var(--navbar-bg);
         }
 
-        a {
-            color: var(--link-color);
+        .navbar .navbar-brand,
+        .navbar .nav-link {
+            color: var(--navbar-text-color);
         }
 
         /* Footer styles */
@@ -78,7 +83,7 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="<?= base_url('/') ?>">Pascal's Portfolio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -132,7 +137,6 @@
             &copy; <?= date('Y') ?> Pascal's Portfolio. All Rights Reserved.
         </div>
     </footer>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
