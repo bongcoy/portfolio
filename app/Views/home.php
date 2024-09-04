@@ -24,7 +24,7 @@
 <section class="about-me mt-5">
     <div class="row">
         <div class="col-md-6">
-            <img src="path_to_your_photo.jpg" alt="Your photo" class="img-fluid rounded-circle">
+            <img src="<?= base_url('images/profile.jpg') ?>" alt="Your photo" class="img-fluid rounded-circle">
         </div>
         <div class="col-md-6">
             <h2>About Me</h2>
