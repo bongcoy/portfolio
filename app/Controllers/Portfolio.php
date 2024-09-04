@@ -27,4 +27,16 @@ class Portfolio extends BaseController
         $data['title'] = 'Contact - Taufik Portfolio';
         return view('contact', $data);
     }
+
+    public function send()
+    {
+        $name = $this->request->getPost('name');
+        $email = $this->request->getPost('email');
+        $message = $this->request->getPost('message');
+
+        // Example of using session flash data
+        session()->setFlashdata('success', 'Your message has been sent successfully!');
+
+        return redirect()->to('/contact');
+    }
 }
