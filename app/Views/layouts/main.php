@@ -57,9 +57,9 @@
                 <div class="col-lg-6 col-md-12 mb-4">
                     <h5 class="text-uppercase">Connect with me</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#!" class="text-dark">LinkedIn</a></li>
-                        <li><a href="#!" class="text-dark">GitHub</a></li>
-                        <li><a href="#!" class="text-dark">Twitter</a></li>
+                        <li><a href="https://www.linkedin.com/in/muhammad-pascal-dewantara-15901815b/" class="text-dark">LinkedIn</a></li>
+                        <li><a href="https://github.com/bongcoy" class="text-dark">GitHub</a></li>
+                        <li><a href="https://www.instagram.com/mpascaldewantara/" class="text-dark">Instagram</a></li>
                     </ul>
                 </div>
             </div>
