@@ -4,15 +4,17 @@
 <!-- Projects Introduction Section -->
 <section class="projects-intro text-center mt-5">
     <h1>My Projects</h1>
-    <p>Here are some of the projects I have worked on, spanning web development, data analysis, and software solutions. Each project reflects my commitment to solving problems with technology.</p>
+    <p>Here are some of the projects I have worked on, spanning web development, Mobile Development, Data Analytic, Natural Language Processing, and Computer Vision. Each project reflects my commitment to solving problems with technology.</p>
 </section>
 
 <!-- Project Filters -->
 <div class="btn-group mt-5" role="group" aria-label="Project Filters">
     <button type="button" class="btn btn-outline-primary" onclick="filterProjects('all')">All</button>
-    <button type="button" class="btn btn-outline-secondary" onclick="filterProjects('web')">Web Development</button>
-    <button type="button" class="btn btn-outline-success" onclick="filterProjects('data')">Data Analysis</button>
-    <button type="button" class="btn btn-outline-info" onclick="filterProjects('software')">Software Solutions</button>
+    <button type="button" class="btn btn-outline-secondary" onclick="filterProjects('se-web')">Web Development</button>
+    <button type="button" class="btn btn-outline-success" onclick="filterProjects('se-mobile')">Mobile Development</button>
+    <button type="button" class="btn btn-outline-info" onclick="filterProjects('ds-data')">Data Analytic</button>
+    <button type="button" class="btn btn-outline-primary" onclick="filterProjects('ds-nlp')">Natural Language Processing</button>
+    <button type="button" class="btn btn-outline-secondary" onclick="filterProjects('is-vision')">Computer Vision</button>
 </div>
 
 <!-- Projects Section -->

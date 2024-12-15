@@ -128,6 +128,7 @@
                     <ul class="list-unstyled">
                         <li><a href="https://www.linkedin.com/in/muhammad-pascal-dewantara-15901815b/" target="_blank">LinkedIn</a></li>
                         <li><a href="https://github.com/bongcoy" target="_blank">GitHub</a></li>
+                        <li><a href="https://medium.com/@mpascaldewantara" target="_blank">Medium</a></li>
                         <li><a href="https://www.instagram.com/mpascaldewantara/" target="_blank">Instagram</a></li>
                     </ul>
                 </div>
